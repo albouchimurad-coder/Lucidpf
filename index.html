@@ -144,9 +144,9 @@
   }
   .hero-bg-panel{
     position:absolute; inset:0;
-    background-image:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80');
-    background-size:cover;
-    background-position:center;
+    width:100%;
+    height:100%;
+    object-fit:cover;
     opacity:.16;
     filter:grayscale(60%) contrast(1.1);
     mix-blend-mode:luminosity;
@@ -538,7 +538,9 @@
 <div class="stripe-divider"><span class="b"></span><span class="r"></span></div>
 
 <section class="hero">
-  <div class="hero-bg-panel"></div>
+  <video class="hero-bg-panel" autoplay muted loop playsinline>
+    <source src="https://blobby.wsimg.com/getty/videos/1350848523" type="video/mp4">
+  </video>
   <div class="hero-stripes"><div class="s1"></div><div class="s2"></div></div>
   <div class="wrap hero-inner">
     <div class="eyebrow">Est. 2011 &mdash; American Manufacturing</div>
@@ -592,7 +594,7 @@
       </div>
     </div>
     <div class="about-visual reveal">
-      <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80" alt="Manufacturing facility floor">
+      <img src="images/Manufacturing.png" alt="Manufacturing facility floor">
       <div class="about-badge">
         <span class="n">15</span>
         <span class="l">Years American<br>Manufacturing</span>
@@ -617,7 +619,7 @@
           <h3>Premium PPF</h3>
           <p>Self-healing, high-gloss urethane film engineered for automotive surfaces  resists rock chips, road debris, and UV yellowing without dulling the paint beneath.</p>
           <div class="spec-list">
-            <div><div class="k">Thickness</div><div class="v">8.0 mil</div></div>
+            <div><div class="k">Thickness</div><div class="v">8.5 mil</div></div>
             <div><div class="k">Finish</div><div class="v">Gloss / Matte</div></div>
             <div><div class="k">Warranty</div><div class="v">10 Years</div></div>
             <div><div class="k">Self-Heal</div><div class="v">Yes</div></div>
@@ -654,19 +656,20 @@
     </div>
     <div class="factory-grid">
       <div class="factory-item reveal">
-        <img src="https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=900&q=80" alt="Production line casting film">
+      
+        <img src="https://narzdwez94.preview.c40.airoapp.ai/airo-assets/images/pages/home/factory-3?_v=1784304692738" alt="Production line casting film">
         <div class="factory-caption"><div class="cap-num">01</div><div class="cap-title">Casting Line</div></div>
       </div>
       <div class="factory-item reveal">
-        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=700&q=80" alt="Robotic manufacturing arm">
+        <img src="https://narzdwez94.preview.c40.airoapp.ai/airo-assets/images/pages/home/factory-1?_v=1784304691145" alt="Robotic manufacturing arm">
         <div class="factory-caption"><div class="cap-num">02</div><div class="cap-title">Precision Robotics</div></div>
       </div>
       <div class="factory-item reveal">
-        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=700&q=80" alt="Quality control lab technician">
+        <img src="https://narzdwez94.preview.c40.airoapp.ai/airo-assets/images/pages/home/factory-5?_v=1784304694198" alt="Quality control lab technician">
         <div class="factory-caption"><div class="cap-num">03</div><div class="cap-title">QC Laboratory</div></div>
       </div>
       <div class="factory-item reveal">
-        <img src="https://images.unsplash.com/photo-1591189863430-ab87e120f312?auto=format&fit=crop&w=700&q=80" alt="Finished film rolls ready for shipment">
+        <img src="https://narzdwez94.preview.c40.airoapp.ai/airo-assets/images/pages/home/factory-2?_v=1784304692267" alt="Finished film rolls ready for shipment">
         <div class="factory-caption"><div class="cap-num">04</div><div class="cap-title">Roll Finishing</div></div>
       </div>
     </div>
@@ -756,11 +759,7 @@
       <p>Tell us about your market and volume needs. Our export team responds to wholesale and dealership inquiries within one business day.</p>
       <div class="contact-detail">
         <div class="k">Wholesale Inquiries</div>
-        <div class="v">distributors@lucidppf.com</div>
-      </div>
-      <div class="contact-detail">
-        <div class="k">Export &amp; Logistics</div>
-        <div class="v">+1 (555) 019-2200</div>
+        <div class="v">info@lucidpf.com</div>
       </div>
       <div class="contact-detail">
         <div class="k">Headquarters</div>
